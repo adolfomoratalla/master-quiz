@@ -1,0 +1,254 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "01. El lanzamiento de un proyecto debe de estar bien realizado si se pretende que tenga éxito y que los actores interesados estén satisfechos con su resultado. ¿Cuál de los siguientes pasos no forma parte del lanzamiento de un proyecto?",
+      "opciones": {
+        "A": "Hacer una lista con los supuestos de la decisión.",
+        "B": "Estimar los costes de los diferentes tipos de recursos que se van a utilizar.",
+        "C": "Recoger datos y generar información sobre la oportunidad a aprovechar.",
+        "D": "Desarrollar un conjunto de criterios con los que valorar alternativas."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "02. Hay definiciones diferentes de la dirección de proyectos, dado que la profesión se ejerce en muchos sectores industriales. De las siguientes afirmaciones, ¿Cuál se ajusta más a la definición que hace PMI de la dirección de proyectos?",
+      "opciones": {
+        "A": "El buen uso de las tecnologías utilizadas para completar los trabajos de un proyecto.",
+        "B": "El uso de conocimientos, y métodos de gestión para conseguir definir y alcanzar los objetivos del proyecto, dentro de sus restricciones.",
+        "C": "Es específica de cada sector porque la definición depende del sector industrial en la que la compañía esté trabajando.",
+        "D": "El inicio, planificación, ejecución, seguimiento, control y cierre de un proyecto."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "03. El director de un proyecto de desarrollo de un nuevo producto, ¿Cuándo sabe que el proyecto es un éxito?",
+      "opciones": {
+        "A": "Cuando cierra el proyecto, dado que se completó en tiempo y plazo.",
+        "B": "Cuando el director del departamento de ventas confirma que el nuevo producto cumple todos los requisitos.",
+        "C": "Cuando las operaciones confirman que el producto se ha comenzado a vender con la satisfacción de los clientes.",
+        "D": "Cuando el patrocinador del proyecto así lo indica."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "04. El director de un proyecto de desarrollo informático argumenta que conviene documentar el propósito que se le va a dar a la aplicación antes de priorizar sus funcionalidades. El patrocinador le indica que se limite a desarrollar las especificaciones determinadas por el cliente ¿Quién tiene razón?",
+      "opciones": {
+        "A": "El patrocinador, porque el cliente siempre tiene razón.",
+        "B": "El director, los proyectos de éxito se elaboran gradualmente, es preferible estudiar antes de actuar.",
+        "C": "El director, porque no conviene fiarse de lo determinado por los clientes.",
+        "D": "El patrocinador, porque tiene mayor autoridad."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "05. En la actualidad, las empresas más rentables utilizan muy intensamente la dirección de proyectos, incluso las que facturan por operaciones ¿Por qué razón?",
+      "opciones": {
+        "A": "Porque muchas operaciones se pueden gestionar como si fueran proyectos.",
+        "B": "Porque la rentabilidad depende de que se implemente la estrategia corporativa y esto es a lo que se dedica la dirección de proyectos.",
+        "C": "Porque, de vez en cuando, tienen que atender peticiones especiales de alguno de sus clientes.",
+        "D": "Porque todas las organizaciones rentables tienen muchos proyectos internos, por ejemplo, de mejora de procesos."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "06. De acuerdo con PMI, las áreas de aplicación son categorías de proyectos que tienen elementos comunes pero que no se necesitan o no se presentan en todos los proyectos. Por consiguiente, dichas áreas son generalmente definidas en relación a:",
+      "opciones": {
+        "A": "Ingeniería y tecnología aplicadas.",
+        "B": "Inversiones de la organización.",
+        "C": "Ventanas de negocio y elementos tácticos.",
+        "D": "Alta relación con un determinado departamento funcional."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "07. Eres el director de un proyecto de construcción de un hospital acabas de completar a plena satisfacción del cliente. El cliente a pedido al patrocinador que le oferte la construcción de otro hospital completamente igual al acabado, pero en otra región del país. Y le ha indicado que quiere una reducción del 20% en el precio. Argumenta que, debido a que se trata del mismo encargo, hay que aplicar un descuento por volumen de obra. El patrocinador te pide opinión. Como director de proyecto, ¿Cuál deberías darle?",
+      "opciones": {
+        "A": "Que conceda un 10% de descuento, para empezar a negociar.",
+        "B": "Que el resultado de cada proyecto es singular, que no hay razón alguna para bajar el precio, que hay que presupuestar detalladamente el nuevo encargo.",
+        "C": "Que se puede ser flexible con el precio, porque el coste será menor, debido a lo aprendido en la primera obra.",
+        "D": "Que no haga ningún descuento. Así, habrá mayor beneficio en esta segunda oportunidad."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "08. Dirigir y liderar personas depende de la capacidad de ejercicio de la autoridad del director de proyecto y de su habilidad para interactuar con personas. ¿Por qué necesita un director de proyecto, para ser eficiente, poseer tanto habilidad de liderazgo como capacidad directiva?",
+      "opciones": {
+        "A": "Porque los directores de proyecto gastan hasta un 90 % de su tiempo comunicándose con el equipo y los actores interesados en el proyecto.",
+        "B": "Porque los directores se concentran más en la planificación y los líderes en la ejecución.",
+        "C": "Porque los líderes son más eficaces que los directores.",
+        "D": "Porque como director se concentrará en los procesos y como líder se orientará hacia las personas."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "09. El cliente de una operadora de telefonía, solicita que se configure el servicio telefónico prestado, de una manera más personalizada. Sus necesidades y requerimientos son muy sofisticados y, para lograr su cumplimiento, deberán intervenir varios departamentos, en diferentes divisiones de la operadora. Serán los directores de departamento los que se encarguen de gestionar sus trabajos, interaccionando directamente con el cliente. Un ejecutivo del departamento de grandes cuentas se encargará de la facturación de los trabajos realizados ¿Cuál es el pronóstico de este planteamiento?",
+      "opciones": {
+        "A": "No funcionará, los departamentos no se encargan de tales iniciativas. Hay que montar un equipo y nombrar a un director del proyecto.",
+        "B": "Funcionará, pero dará problemas, el cliente tendrá demasiados interlocutores.",
+        "C": "Si el ejecutivo del departamento de grandes cuentas sabe hacer su trabajo, podría funcionar.",
+        "D": "No funcionará, salvo que la iniciativa sea apoyada por la alta dirección."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "10. En un proyecto se distinguen diferentes niveles de autoridad, desde el nivel de entrega hasta el nivel de gobierno. Jerarquizados, en cada nivel hay una autoridad. Generalmente, ¿Quién detenta la máxima autoridad en un proyecto?",
+      "opciones": {
+        "A": "La alta dirección de la empresa.",
+        "B": "La Junta del Proyecto.",
+        "C": "El patrocinador.",
+        "D": "La Oficina de Gestión de Proyectos."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "11. El director de ventas de una marca de automóviles desea comercializar un nuevo modelo porque considera que los que actualmente vende son obsoletos. El comité de dirección aprueba la idea y le indica que patrocine el proyecto. Dado que será necesario trabajar con vendedores, ingenieros y diseñadores, en una reunión propone que también actúen como patrocinadores los directores de I+D y de producción. Se muestran de acuerdo, pero discuten acerca de la organización del proyecto, ¿Qué opción es la mejor para manejar esta situación?",
+      "opciones": {
+        "A": "Que exista un solo patrocinador y tres directores de proyecto, uno en cada departamento.",
+        "B": "Conviene montar un portafolio, con un proyecto en cada departamento. Los directores de departamento actuarían como patrocinadores de sus respectivos proyectos y el director de ventas como gestor del portafolio.",
+        "C": "Puede haber varios patrocinadores, pero un solo director del proyecto. Los tres directores de departamento deberían ponerse de acuerdo en escoger a la persona más idónea.",
+        "D": "Conviene montar un programa, con un proyecto en cada departamento. Los directores de departamento actuarían como patrocinadores de sus respectivos proyectos y el director de ventas como gestor del portafolio."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "12. A la hora de distinguir entre el equipo de dirección del proyecto y el equipo de proyecto, ¿Qué afirmación es incorrecta?",
+      "opciones": {
+        "A": "El equipo de dirección del proyecto es el responsable del éxito del proyecto.",
+        "B": "El equipo de dirección del proyecto participa en la gestión de los trabajos del proyecto.",
+        "C": "El equipo de dirección del proyecto forma parte del equipo del proyecto.",
+        "D": "El equipo del proyecto realiza los trabajos del proyecto."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "13. ¿A qué grupo de procesos y área de conocimiento pertenece el proceso de Gestionar el Conocimiento del Proyecto?",
+      "opciones": {
+        "A": "Planificación y comunicaciones.",
+        "B": "Ejecución e integración.",
+        "C": "Seguimiento & Control e integración.",
+        "D": "Ejecución e interesados."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "14. Se dice que los proyectos se realizan para aumentar el valor de negocio de una empresa, que se define como la suma total de todos sus activos netos, tangibles e intangibles. De las cuatro opciones, indica un proyecto que solo aumente el valor intangible de la empresa:",
+      "opciones": {
+        "A": "Completar la construcción de un nuevo edificio para un cliente, en se ha obtenido un 10% de rentabilidad.",
+        "B": "La construcción de una nueva sede social, de la detenta la propiedad.",
+        "C": "Conseguir que la empresa cotice en bolsa, ampliando su capital social.",
+        "D": "La financiación de un campeonato de golf, exclusivo para sus clientes considerados como grandes cuentas."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "15. Se dice que los proyectos impulsan el cambio en las organizaciones, que las transforman de un estado actual a otro futuro, con un mayor valor de negocio. De las cuatro opciones, indica un resultado de proyecto que no haya transformado a la organización:",
+      "opciones": {
+        "A": "Se acaba de recuperar la fianza del contrato de mantenimiento que el año pasado completamos para uno de nuestros clientes.",
+        "B": "El departamento de I+D ha completado un prototipo que no se puede comercializar todavía.",
+        "C": "Se ha conseguido que el sistema de gestión medioambiental cumpla la ISO14000.",
+        "D": "Hemos conseguido abrir una oficina de ventas en un país donde no estábamos presentes."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "16. ¿A qué categoría de factores de lanzamiento de un proyecto pertenece la iniciativa de implementar en la organización un modelo de gestión JIT, con una rápida y eficiente cadena de suministro?",
+      "opciones": {
+        "A": "Cumplir requisitos de leyes, regulaciones o contratos establecidos.",
+        "B": "Implementar estrategias de negocio o cambiar de tecnología.",
+        "C": "Mejorar, crear o reparar procesos, productos y/o servicios.",
+        "D": "Satisfacer demandas y/o necesidades de actores interesados."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "17. En todas las compañías en las que está implementada, hay una unidad que trabaja y funciona como una Project Based Organization (PBO), es decir una organización basada en proyectos. ¿Podrías indicar de cuál se trata?",
+      "opciones": {
+        "A": "Departamento de informática.",
+        "B": "PMO.",
+        "C": "Departamento de calidad.",
+        "D": "Departamento financiero."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "18. Una compañía de seguros comercializa entre familias que son propietarias de su hogar, un seguro combinado que cubre una serie de riesgos domésticos. El seguro tiene un gran éxito de ventas. El comité de dirección acaba de aprobar un nuevo proyecto, para iniciar la venta a pequeñas empresas de un nuevo seguro, aunque cubre riesgos similares, ¿De qué tipo de proyecto consideras que es tal iniciativa?",
+      "opciones": {
+        "A": "Diversificación.",
+        "B": "Desarrollo de Mercado.",
+        "C": "Penetración de Mercado.",
+        "D": "Desarrollo de Producto."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "19. Todas las siguientes son características de un proyecto excepto una:",
+      "opciones": {
+        "A": "Temporal.",
+        "B": "Resultado singular.",
+        "C": "Con trabajos muy interrelacionados.",
+        "D": "Se repite todos los meses."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "20. Todos los siguientes puntos forman parte de la gestión de los actores interesados del proyecto excepto una:",
+      "opciones": {
+        "A": "Informarles que tienen la obligación de participar y contribuir al proyecto.",
+        "B": "Identificarlos.",
+        "C": "Determinar su poder y necesidades.",
+        "D": "Gestionar sus expectativas."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "21. Indica un principio fundamental de la filosofía de gestión por objetivos (MBO) que se suele aplicar a la hora de gestionar un proyecto",
+      "opciones": {
+        "A": "El director del proyecto puede participar en el establecimiento y cambio de los objetivos de proyecto.",
+        "B": "Los objetivos del proyecto los impone la alta dirección.",
+        "C": "El patrocinador del proyecto es el único que puede cambiar los objetivos del proyecto.",
+        "D": "Si el cliente acepta los resultados del proyecto, se han alcanzado los objetivos."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "22. La capacidad de los actores interesados para influir en las características finales del producto resultado del proyecto:",
+      "opciones": {
+        "A": "Es difícil de medir.",
+        "B": "Disminuye a lo largo del curso del proyecto.",
+        "C": "Aumenta a lo largo del curso del proyecto.",
+        "D": "Depende de la cantidad de riesgo asumido en el proyecto."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "23. A la hora de aplicar la dirección por objetivos (MBO) a la gestión de un proyecto, los resultados se comparan con los objetivos. Para ello, hay que medir muchos aspectos ¿Qué tres aspectos o dimensiones se consideran básicas?",
+      "opciones": {
+        "A": "Alcance, tiempo y coste.",
+        "B": "Satisfacción del patrocinador, plazo y coste.",
+        "C": "Riesgos, calidad y satisfacción del cliente.",
+        "D": "Alcance, satisfacción de los actores interesados y plazo."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "24. El patrocinador te ha pedido que elabores un presupuesto muy ajustado, dado que el proyecto tiene muy poco margen de beneficios. Para hacerlo, necesitarás tener competencias de:",
+      "opciones": {
+        "A": "Gestión de adquisiciones, para saber elegir las mejores ofertas.",
+        "B": "Gestión de personal, para estimar los costes de los trabajos.",
+        "C": "Gestión técnica, para elegir la solución más barata.",
+        "D": "Planificación de proyectos."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "25. Las políticas corporativas pueden ser definidas como:",
+      "opciones": {
+        "A": "La totalidad de los patrones de conducta, artes, creencias, instituciones y otros productos del trabajo humano socialmente transmitidos.",
+        "B": "Normas y orientaciones hechas por la autoridad a un grupo de personas con intereses diferentes con el fin de coordinar su trabajo y comportamiento.",
+        "C": "Indicaciones de la alta dirección que pueden traducirse, usualmente, en trastornos para el proyecto.",
+        "D": "Indicaciones para influir en las conductas, de cambiar el curso de los acontecimientos, superando resistencias y consiguiendo que las personas hagan cosas que no harían de otra manera."
+      },
+      "respuesta_correcta": "B"
+    }
+  ]
+}
