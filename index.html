@@ -1,127 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz sobre Dirección de Proyectos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .question {
-            margin-bottom: 20px;
-        }
-
-        .options {
-            margin-left: 20px;
-        }
-
-        .option {
-            margin-bottom: 10px;
-        }
-
-        .result {
-            margin-top: 20px;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz sobre Dirección de Proyectos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .options {
+      margin-left: 20px;
+    }
+    .option {
+      margin-bottom: 10px;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .btn-container {
+      margin-top: 20px;
+    }
+    .btn {
+      margin-right: 10px;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Quiz sobre Dirección de Proyectos</h1>
-        <div class="question" id="question"></div>
-        <div class="options" id="options"></div>
-        <button onclick="checkAnswer()">Verificar respuesta</button>
-        <div class="result" id="result"></div>
-    </div>
+  <div class="container">
+    <h1>Quiz sobre Dirección de Proyectos</h1>
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+    <button class="btn" onclick="checkAnswer()">Verificar respuesta</button>
+    <button class="btn" onclick="prevQuestion()">Anterior pregunta</button>
+    <button class="btn" onclick="nextQuestion()">Siguiente pregunta</button>
+    <div class="result" id="result"></div>
+  </div>
 
-    <script>
-        // Función para cargar el archivo JSON
-        function loadJSON(callback) {
-            var xobj = new XMLHttpRequest();
-            xobj.overrideMimeType("application/json");
-            xobj.open('GET', 'C01.json', true);
-            xobj.onreadystatechange = function () {
-                if (xobj.readyState == 4 && xobj.status == "200") {
-                    callback(xobj.responseText);
-                }
-            };
-            xobj.send(null);
+  <script>
+    // Función para cargar el archivo JSON
+    function loadJSON(callback) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', 'C01.json', true);
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
         }
+      };
+      xobj.send(null);
+    }
 
-        // Variables globales
-        var questions;
-        var currentQuestionIndex = 0;
-        var resultElement = document.getElementById("result");
+    // Variables globales
+    var questions;
+    var currentQuestionIndex = 0;
+    var resultElement = document.getElementById("result");
 
-        // Función para cargar la pregunta actual
-        function loadQuestion() {
-            var question = questions[currentQuestionIndex];
-            document.getElementById("question").innerText = question.pregunta;
+    // Función para cargar la pregunta actual
+    function loadQuestion() {
+      var question = questions[currentQuestionIndex];
+      document.getElementById("question").innerText = question.pregunta;
 
-            var optionsHTML = "";
-            for (var option in question.opciones) {
-                optionsHTML += '<div class="option"><input type="radio" name="option" value="' + option + '"> ' + question.opciones[option] + '</div>';
-            }
-            document.getElementById("options").innerHTML = optionsHTML;
-        }
+      var optionsHTML = "";
+      for (var option in question.opciones) {
+        optionsHTML += '<div class="option"><input type="radio" name="option" value="' + option + '"> ' + question.opciones[option] + '</div>';
+      }
+      document.getElementById("options").innerHTML = optionsHTML;
+    }
 
-        // Función para verificar la respuesta del usuario
-        function checkAnswer() {
-            var selectedOption = document.querySelector('input[name="option"]:checked');
-            if (!selectedOption) {
-                alert("Por favor seleccione una opción.");
-                return;
-            }
+    // Función para verificar la respuesta del usuario
+    function checkAnswer() {
+      var selectedOption = document.querySelector('input[name="option"]:checked');
+      if (!selectedOption) {
+        alert("Por favor seleccione una opción.");
+        return;
+      }
 
-            var userAnswer = selectedOption.value;
-            var correctAnswer = questions[currentQuestionIndex].respuesta_correcta;
-            if (userAnswer === correctAnswer) {
-                resultElement.innerText = "Respuesta correcta.";
-            } else {
-                resultElement.innerText = "Respuesta incorrecta. La respuesta correcta es: " + correctAnswer;
-            }
+      var userAnswer = selectedOption.value;
+      var correctAnswer = questions[currentQuestionIndex].respuesta_correcta;
+      if (userAnswer === correctAnswer) {
+        resultElement.innerText = "Respuesta correcta.";
+      } else {
+        resultElement.innerText = "Respuesta incorrecta. La respuesta correcta es: " + correctAnswer;
+      }
+    }
 
-            selectedOption.checked = false; // Limpiar la selección de la opción
+    // Función para ir a la pregunta anterior
+    function prevQuestion() {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        loadQuestion();
+        resultElement.innerText = ""; // Limpiar el resultado anterior
+      }
+    }
 
-            if (currentQuestionIndex < questions.length - 1) {
-                currentQuestionIndex++;
-                loadQuestion();
-            } else {
-                showFinalResult();
-            }
-        }
+    // Función para ir a la siguiente pregunta
+    function nextQuestion() {
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        loadQuestion();
+        resultElement.innerText = ""; // Limpiar el resultado anterior
+      }
+    }
 
-        // Función para mostrar el resultado final
-        function showFinalResult() {
-            var correctCount = 0;
-            for (var i = 0; i < questions.length; i++) {
-                if (userAnswers[i] === questions[i].respuesta_correcta) {
-                    correctCount++;
-                }
-            }
-            resultElement.innerText = "Has respondido correctamente " + correctCount + " de " + questions.length + " preguntas.";
-        }
-
-        // Cargar el archivo JSON al cargar la página
-        window.onload = function () {
-            loadJSON(function (response) {
-                // Parsear JSON string en objeto JavaScript
-                questions = JSON.parse(response);
-                // Cargar la primera pregunta
-                loadQuestion();
-            });
-        };
-    </script>
+    // Cargar el archivo JSON al cargar la página
+    window.onload = function() {
+      loadJSON(function(response) {
+        // Parsear JSON string en objeto JavaScript
+        questions = JSON.parse(response);
+        // Cargar la primera pregunta
+        loadQuestion();
+      });
+    };
+  </script>
 </body>
-
 </html>
